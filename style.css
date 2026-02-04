@@ -103,3 +103,9 @@ footer a.btn-footer {
   transition: .2s;
   color: #0b0b0b;
 }
+.icon-app {
+  width: 22px;
+  height: 22px;
+  margin-left: 8px;
+  object-fit: contain;
+}
