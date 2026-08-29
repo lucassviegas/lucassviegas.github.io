@@ -4,15 +4,18 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   height: 100vh;
   font-size: 14px;
 }
+
 body {
   background: linear-gradient(0deg, #1e1f1f, #8191be);
   font: 400 1rem 'Roboto', sans-serif;
   height: 100%;
 }
+
 .container {
   height: 100%;
   max-width: 550px;
@@ -23,28 +26,35 @@ body {
   padding: 20px;
   color: #fff;
 }
+
 a {
   text-decoration: none;
   color: #fff;
 }
+
 .degrade {
   background: linear-gradient(to right, #044278, #a9d1d5);
 }
+
 header {
   text-align: center;
   margin-bottom: 40px;
 }
+
 header img {
   max-width: 200px;
   margin-bottom: 2%;
   border-radius: 50%;
 }
+
 header h1 {
   font-size: 2em;
   margin-bottom: 10px;
-  color: #ffffff; /* era #000000 — invisível no fundo escuro */
+  color: #ffffff;
+  /* era #000000 — invisível no fundo escuro */
   font-weight: 300;
 }
+
 section.botoes-links {
   display: flex;
   flex-direction: column;
@@ -67,22 +77,27 @@ a.link {
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.489);
   color: #000000;
 }
+
 a.link i {
   font-size: 1.5em;
   color: #000000;
 }
+
 a.link img {
   width: 1.5em;
   height: 1.5em;
   margin-left: auto;
 }
+
 a.link:hover {
   transform: scale(1.05);
 }
+
 footer {
   text-align: center;
   margin: 30px;
 }
+
 footer a.btn-footer {
   width: 60px;
   height: 60px;
@@ -94,9 +109,11 @@ footer a.btn-footer {
   transition: .2s;
   color: #0b0b0b;
 }
+
 footer a.btn-footer:hover {
   transform: scale(1.1);
 }
+
 .icon-app {
   width: 22px;
   height: 22px;
