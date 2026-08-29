@@ -49,7 +49,7 @@ section.botoes-links {
   flex-direction: column;
   gap: 20px;
 }
-a.link {
+a.link button {
   width: 100%;
   padding: 10px 20px;
   display: flex;
@@ -61,11 +61,21 @@ a.link {
   cursor: pointer;
   transition: .2s;
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.489);
+  color: #000000;
+}
+a.link {
+  color: #000000;
 }
 a.link i {
   font-size: 1.5em;
+  color: #000000;
 }
-a.link:hover {
+a.link img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: auto;
+}
+a.link button:hover {
   transform: scale(1.05);
 }
 footer {
