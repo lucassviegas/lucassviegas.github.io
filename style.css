@@ -37,11 +37,12 @@ header {
 header img {
   max-width: 200px;
   margin-bottom: 2%;
+  border-radius: 50%;
 }
 header h1 {
   font-size: 2em;
   margin-bottom: 10px;
-  color: #000000;
+  color: #ffffff; /* era #000000 — invisível no fundo escuro */
   font-weight: 300;
 }
 section.botoes-links {
@@ -49,7 +50,10 @@ section.botoes-links {
   flex-direction: column;
   gap: 20px;
 }
-a.link button {
+
+/* Antes era "a.link button", mas não existe <button> no HTML.
+   Os estilos precisam ir direto em a.link */
+a.link {
   width: 100%;
   padding: 10px 20px;
   display: flex;
@@ -63,9 +67,6 @@ a.link button {
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.489);
   color: #000000;
 }
-a.link {
-  color: #000000;
-}
 a.link i {
   font-size: 1.5em;
   color: #000000;
@@ -75,7 +76,7 @@ a.link img {
   height: 1.5em;
   margin-left: auto;
 }
-a.link button:hover {
+a.link:hover {
   transform: scale(1.05);
 }
 footer {
